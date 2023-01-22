@@ -1,0 +1,57 @@
+.input {
+    display: flex;
+    border: 1px solid #bbb;
+    width: 100%;
+    border-radius: 3px;
+    min-width: 80px;
+    background-color: white;
+}
+
+.open_input {
+    border-radius: 3px 3px 0 0;
+    border-bottom: none;
+}
+
+.input>span:first-child {
+    flex-grow: 1;
+    padding: 0 3px 0 3px;
+}
+
+.input>span:last-child {
+    padding: 0 3px 0 3px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+
+.menu {
+    position: absolute;
+    border: 1px solid #bbb;
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+    width: 100%;
+    background-color: white;
+}
+
+.open {
+    transform: rotate(180deg);
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.closed {
+    transform: rotate(0deg);
+}
+
+.option {
+    border: thin;
+    padding: 0 3px;
+    min-width: 70px;
+}
+
+.option:hover {
+    background-color: gray;
+}
