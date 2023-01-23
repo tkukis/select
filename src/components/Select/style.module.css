@@ -3,7 +3,7 @@
     border: 1px solid #bbb;
     width: 100%;
     border-radius: 3px;
-    min-width: 80px;
+    min-width: 130px;
     background-color: white;
 }
 
@@ -34,6 +34,7 @@
     border-top: none;
     width: 100%;
     background-color: white;
+    z-index: 100;
 }
 
 .open {
@@ -49,7 +50,6 @@
 .option {
     border: thin;
     padding: 0 3px;
-    min-width: 70px;
 }
 
 .option:hover {
